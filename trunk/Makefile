@@ -36,7 +36,7 @@ doc:
 	@ $(MVN) $(MVNFLAGS) javadoc:javadoc
 
 clean:
-	@- rm -rf ./bin/*
+	@- rm -rf ./lib/*
 	@- rm -rf ./build/*
 	@- rm -rf ./docs/*
 
